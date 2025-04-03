@@ -1,0 +1,14 @@
+import math 
+a=float(input())
+b=float(input())
+c=float(input())
+x=-2
+while x<=2:
+    if x<1:
+        y=8*a**2+2*b 
+    elif x>1:
+        y=6*c*x+7
+    else:
+        y=2*c-3*x 
+    print(y)
+    x=x+0.5
